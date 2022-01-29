@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+	int number, table, cicle, molt;//la variabile "ciclo" la useremmo come contatore
+	numero = 0;
+	
+	printf("\n\tWhich times table do you want to learn?");
+	printf("\n\tTYPE A NUMBER: ");
+	scanf("%d",&table);
+  
+    for(cicle=1; cicle<=10; cicle=cicle+1){
+	    printf("\n\t%d x %d = %d\n\t",table, molt=molt+1, number=number+1*table);
+	    sleep(1);
+		}
+system("pause");
+return 0;	
+}
